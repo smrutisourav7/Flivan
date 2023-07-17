@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Details</title>
+    <link rel="stylesheet" href="book.css" />
+  </head>
+  <body>
+    <div class="booking-form-w3layouts">
+      <!-- Form starts here -->
+      <form id="bookingForm" action="#" method="post">
+        <h2 class="sub-heading-agileits">Booking Details</h2>
+        <div class="triple-wthree">
+          <!-- Number of Passengers -->
+          <div class="field-agileinfo-spc form-w3-agile-text11">
+            <label for="numOfPassengers">Number of Passengers</label>
+            <select id="numOfPassengers" class="form-control" required>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5+</option>
+            </select>
+          </div>
+        </div>
+        <div id="passengerDetails">
+          <!-- Passenger Details -->
+        </div>
+        <h3 class="sub-heading-agileits">Personal Details</h3>
+        <div class="main-flex-w3ls-sectns">
+          <div class="field-agileinfo-spc form-w3-agile-text1">
+            <label for="fullName">Full Name</label>
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+          <div class="field-agileinfo-spc form-w3-agile-text2">
+            <label for="phoneNumber">Phone Number</label>
+            <input
+              type="text"
+              id="phoneNumber"
+              name="phoneNumber"
+              placeholder="Enter your phone number"
+              required
+            />
+          </div>
+        </div>
+        <div class="field-agileinfo-spc form-w3-agile-text">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+        <div class="clear"></div>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Clear Form" />
+        <div class="clear"></div>
+      </form>
+      <!--// Form starts here -->
+    </div>
+    <script src="book.js"></script>
+  </body>
+</html>
